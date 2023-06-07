@@ -1,0 +1,34 @@
+{
+  "e6db8fef13634882c09d24b989e18771910fbe4b.csv": {
+    "title": "Group_1.csv",
+    "description": "Group_1.csv",
+    "source": "Group_1.csv",
+    "licence": "CC0",
+    "attribution": "Group_1.csv",
+    "tags": []
+  },
+  "6306b23a726836f2885998a7d3355654d3abf9e6.csv": {
+    "title": "Test data for JSON schema component",
+    "description": "Test data for JSON schema component",
+    "source": "ODI",
+    "licence": "CC-BY",
+    "attribution": "ODI",
+    "tags": []
+  },
+  "ac45e46b966c17da92d1e29d47bb06a14f628629.json": {
+    "title": "Test schema (2)",
+    "description": "Test schema (2)",
+    "source": "ODI",
+    "licence": "CC0",
+    "attribution": "ODI",
+    "tags": []
+  },
+  "4e848fd4e406fbcde4125010b53799aa4d7b9f78.csv": {
+    "title": "missing-data-template.csv",
+    "description": "Schema companies data with missing data",
+    "source": "https://theodi.org",
+    "licence": "CC-BY",
+    "attribution": "ODI",
+    "tags": []
+  }
+}

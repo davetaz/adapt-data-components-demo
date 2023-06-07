@@ -1,0 +1,344 @@
+[
+  {
+    "_component": "chartjsInteractive",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Finding insight in data",
+    "displayTitle": "Finding insight in data",
+    "body": "<p>This component is a demo of <a href=\"https://github.com/theodi/adapt-chartjs-interactive\" target=\"_blank\">adapt-chartjs-interactive</a></p><p>Use the interface below to explore the presented data regarding properties in two cities using different visualisations. Use this to answer the questions that follow.</p><p>&nbsp;</p>",
+    "_id": "647d9a4a77efd700890c8224",
+    "_parentId": "6479cc9248988e697cf5ca5e",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "availableChartTypes": [
+      {
+        "type": "line"
+      },
+      {
+        "type": "scatter"
+      },
+      {
+        "type": "boxplot"
+      },
+      {
+        "type": "histogram"
+      }
+    ],
+    "defaultChartType": "histogram",
+    "defaultXAxis": "elevation",
+    "defaultYAxis": "",
+    "defaultColorSelector": "city",
+    "height": 460,
+    "dataSource": "course/en/assets/e6db8fef13634882c09d24b989e18771910fbe4b.csv"
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Which city is higher",
+    "displayTitle": "Which city is higher",
+    "body": "<p>Which city has more properties at a higher elevation?</p>",
+    "_id": "64809397e2bf430088aa3b45",
+    "_parentId": "6480937ce2bf430088aa39fb",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "New York",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "San Francisco",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That's right!</strong></p><p>SF has more higher elevated properties. Both a boxplot and histogram are good for showing this.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>SF has more higher elevated properties. Both a boxplot and histogram are good for showing this.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "How much more expensive is one that the other?",
+    "displayTitle": "How much more expensive is one that the other",
+    "body": "<p>How much more expensive is one city to live in that the other?</p>",
+    "_id": "64809453e2bf430088aa3e23",
+    "_parentId": "6480941ee2bf430088aa3cb8",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "NY is about $700 more expensive per sqft",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "NY is over $1000 more expensive than SF",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Both cities are expensive",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That's right!</strong></p><p>Using the boxplot visualisation and showing each cities price per square foot allows us to discover the median property price. Doing this reveals that NY is about $700 more expensive than SF.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Are you sure about that?</strong></p><p>Using the boxplot visualisation and showing each cities price per square foot allows us to discover the median property price. Doing this reveals that NY is about $700 more expensive than SF.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "schemaTableQ",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Can you create valid data?",
+    "displayTitle": "Can you create valid data?",
+    "body": "<p>This component is a demo of <a href=\"https://github.com/theodi/adapt-schema-tableq\" target=\"_blank\">adapt-schema-tableq</a>.</p><p>Can you create some data in the table below that conforms to the following schema to describe companies.&nbsp;</p><table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\"><tbody><tr><td>Field</td><td>Description</td><td>Restrictions</td></tr><tr><td>Name</td><td>Company name</td><td>None</td></tr><tr><td>Status</td><td>Status of company</td><td>One of 'Active' or 'Inactive'</td></tr><tr><td>Year Active</td><td>Number of active years</td><td>Number</td></tr><tr><td>Financial health</td><td>Financial health of company</td><td>One of \"Very poor\", \"Poor\", \"OK\", \"Good\" or \"Very good\"</td></tr></tbody></table><p>Some of the data has been completed for you to give you a start.</p>",
+    "_id": "648095bde2bf430088aa45bc",
+    "_parentId": "64809596e2bf430088aa4296",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "Complete your data then press submit.",
+    "ariaQuestion": "",
+    "schema": "course/en/assets/ac45e46b966c17da92d1e29d47bb06a14f628629.json",
+    "rows": 2,
+    "maxRows": 4,
+    "columns": 2,
+    "maxColumns": 4,
+    "placeholderText": "click to edit",
+    "sample": "course/en/assets/4e848fd4e406fbcde4125010b53799aa4d7b9f78.csv",
+    "modelAnswer": "course/en/assets/6306b23a726836f2885998a7d3355654d3abf9e6.csv",
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>That's right!</strong></p><p>You got it, well done!</p>",
+      "_incorrect": {
+        "final": "<p><strong>Not quite...</strong></p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  }
+]
